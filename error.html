@@ -1,0 +1,169 @@
+<html>
+    <head>
+        <title>FaceBook</title>
+
+        <!--My Links-->
+        <link rel="stylesheet" href="main.css">
+
+
+        <!--Cloud Links-->
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="fb.css">
+
+    </head>
+    
+    <body>
+
+        <script>
+            function openSection(sectionName) {
+             var i;
+             var x = document.getElementsByClassName("section");
+             for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+            }
+            document.getElementById(sectionName).style.display = "block";
+            }
+        </script> 
+
+
+        <!--TOP LOGO AND ICON -->
+        <div class="icon">
+            <p id="icon_text">facebook</p>
+
+            <i id="icon_search" class="fa fa-search" style="font-size: 20px;"></i>
+            <i id="icon_moon" class="fa fa-moon-o" aria-hidden="true" style="font-size: 20px;"></i>
+
+        </div>
+
+            <div class="nav">
+                <i  id="nav_home" class="fa fa-home" aria-hidden="true" style="font-size: 25px;"></i>
+                <i onclick="openSection('friends')" id="nav_us" class="fa fa-users" aria-hidden="true" style="font-size: 25px;"></i>
+                <i id="nav_tv" class="fa fa-tv" aria-hidden="true" style="font-size: 25px;"></i>
+                <i id="nav_user" class="fa fa-user" aria-hidden="true" style="font-size: 25px;"></i>
+                <i id="nav_bell" class="fa fa-bell-o" aria-hidden="true" style="font-size: 25px;"></i>
+                <i id="nav_menu" class="fa fa-bars" aria-hidden="true"style=" font-size: 25px;"></i>
+            </div>
+
+            <hr style="width:100%;background-color:#c0c0c0;height:.5px; ">
+            <hr style="width:70px;background-color:#0a60ff;height:3px;float: left;border-radius:50px;margin-top:-13px; ">
+
+        <!--SECTION MAIN-->  
+        <div id="main" class="section">
+
+            <div class="top_write_section">
+                <img id="profile" src="https://i.pinimg.com/originals/bd/2d/ea/bd2dea7ca21af3a25684b7969ec006cf.jpg">
+                <input id="top_write_textbox" type="text" placeholder="Write something here...">
+                <i id="top_write_image_icon" class="fa fa-picture-o" aria-hidden="true" style="color:#26d46e;font-size:25px;margin-left:10px"></i>
+
+            </div>
+
+            <div class="top_option_section">
+
+                <div id="reel" class="selection_class">
+                    <img class="top_option_img" height="30px" width="30px" src="https://img.icons8.com/fluency/240/instagram-reel.png">
+                    <p class="top_option_text">Reel</p>
+                </div>
+
+                <div id="room" class="selection_class">
+                    <img class="top_option_img" height="30px" width="30px" src="https://www.iconbunny.com/icons/media/catalog/product/1/7/178.10-video-camera-icon-iconbunny.jpg">
+                    <p class="top_option_text">Room</p>
+                </div>
+
+                <div id="group" class="selection_class">
+                    <img class="top_option_img" height="30px" width="30px" src="https://www.recesscreative.com/sites/default/files/inline-images/FacebookGroupsIcon.png">
+                    <p class="top_option_text">Group</p>
+                </div>
+
+                <div id="live" class="selection_class">
+                    <img class="top_option_img_live" height="20px" width="30px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQftUiBp-gWssHPprjgTOzhV-TXNTYvA9EMQA&usqp=CAU">
+                    <p class="top_option_text" style="padding-top:5px;"> Live</p>
+                </div>
+                   
+         
+
+            </div>
+
+                   <!--POST -->
+
+        <div class="post">
+            <div id="1">
+                
+                <img id="post_profile" height="45px" width="45px" style="border-radius:50%;" src="https://cdn4.vectorstock.com/i/thumb-large/51/48/cartoon-character-in-glasses-avatar-young-man-vector-33215148.jpg">
+               
+                <p id="name" style="font-size:18px; font-weight:bold; font-family:sans-serif;">Athul Nambiar</p>
+                <p id="dis" >Sun at 7:00 AM . Public</p>
+                <p id="caption">New App Launched on google play store <br> Download Now > <a href="https://play.google.com/store/apps/details?id=com.safari.android">Download Now</a></p>
+               
+                <img src="https://www.howtogeek.com/wp-content/uploads/2021/04/Safari-Logo-Hero-1200px.png" id="main_img">
+               
+                <i class="fa fa-thumbs-up" aria-hidden="true" style="margin-top:10px;color:white;background-color:#006aff;font-size:18px;margin-left:20px;height:25px;width:30px;text-align:center;padding-top:6px;border-radius:50%;"></i>
+               
+                <p id="like" style="font-size:17px;color:grey;font-family:sans-serif;margin-left:60px;margin-top:-25px;">10.8K</p>
+                <p style="font-size:17px;color:grey;margin-right:10px;margin-top:-37px;margin-left:150px" id="comment">193 Comments . 130 Shares</p>
+               
+                <hr style="background-color:silver;height:.5px;width:95%;align:center;">
+           
+            <div class="reaction_btn">
+                <i id="like_btn" class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                <i id="comment_btn" class="fa fa-comment-o" aria-hidden="true"></i>
+                <i id="share_btn" class="fa fa-share" aria-hidden="true"></i>
+            </div>
+            </div>
+        </div>
+
+        <div style="height:10px;width:100%;margin-top:20px;background-color:silver;"></div>
+        <div class="space"></div>
+        </div> 
+        
+        <div class="post">
+            <div id="2">
+                
+                <img id="post_profile" height="45px" width="45px" style="border-radius:50%;" src="https://mettisglobal.news/wp-content/uploads/2021/02/IMG5410Elon-musk.jpg">
+               
+                <p id="name" style="font-size:18px; font-weight:bold; font-family:sans-serif;">Elon Musk</p>
+                <p id="dis" >Mon at 3:40 PM . Public . SpaceX</p>
+                <p id="caption">Spacex - Most Valued 2nd Private company in the world</p>
+               
+                <img src="https://i.gadgets360cdn.com/large/spacex_inspirtation4_website_1632288577362.jpg?downsize=950:*" id="main_img">
+               
+                <i class="fa fa-thumbs-up" aria-hidden="true" style="margin-top:10px;color:white;background-color:#006aff;font-size:18px;margin-left:20px;height:25px;width:30px;text-align:center;padding-top:6px;border-radius:50%;"></i>
+               
+                <p id="like" style="font-size:17px;color:grey;font-family:sans-serif;margin-left:60px;margin-top:-25px;">938K</p>
+                <p style="font-size:17px;color:grey;margin-right:10px;margin-top:-37px;margin-left:150px" id="comment">193K Comments . 13K Shares</p>
+               
+                <hr style="background-color:silver;height:.5px;width:95%;align:center;">
+           
+            <div class="reaction_btn">
+                <i id="like_btn" class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                <i id="comment_btn" class="fa fa-comment-o" aria-hidden="true"></i>
+                <i id="share_btn" class="fa fa-share" aria-hidden="true"></i>
+            </div>
+            </div>
+        </div>
+        
+        
+
+        <!--SECTION FRIENDS -->
+
+        <div id="friends" class="section" style="display:none;">
+
+            
+
+        </div> 
+
+
+
+
+        <!--SECTION SETTINGS-->
+        <div id="main" class="section">
+
+        </div> 
+
+    </body>
+</html>
